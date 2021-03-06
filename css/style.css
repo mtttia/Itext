@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+body{
+   background-color: #D9D3D0;
+}
+
+#home{
+   height: 100vh;
+}
+
+.initial-text{
+   background: rgba(194, 194, 194, 0.6);
+   -webkit-backdrop-filter: blur(2);
+   box-shadow: 0 8px 32px 0 rgba(124, 124, 124, 0.37);
+   backdrop-filter: blur( 6.0px );
+   -webkit-backdrop-filter: blur( 6.0px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+   z-index: 2;
+   padding: 30px;
+   margin: 40px;
+   margin-top: 30vh;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: center;
+   flex-direction: column;   
+   height: 300px;
+}
+
+.btn-choose{
+   flex-direction: row;
+
+}
+
+.btn-choose button{
+   margin-right: 20px;
+}
+
+.btn{
+   transition: all 0.3s ease;
+}
+
+.my-card{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.card-img-top.svg{
+   width: 30%;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.link{
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.link:hover{
+   text-decoration-line: underline;
+}
+
+.spaces{
+   height: 100px;
+}

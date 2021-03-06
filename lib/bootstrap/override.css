@@ -1,0 +1,27 @@
+.bg-dark
+{
+   background-color: #0D0D0D;
+}
+
+.btn-outline-light
+{
+
+}
+
+.btn-outline-light:hover
+{
+   background-color: #d9d3d0a8;
+}
+
+.card{
+   border: none;
+   background: none;
+}
+
+.card-text{
+   text-align: center;
+}
+
+.bg-light{
+   background-color: #D9D3D0 !important;
+}

@@ -1,0 +1,54 @@
+.menu{
+   flex-direction: column;
+   margin: 10px;
+   border-right: 0.2px solid black;
+}
+
+.menu-item{
+   padding-left: 10px;
+   color: #000;
+   text-decoration: none;
+   font-size: 20px;
+   width: 100%;
+   border-radius: 6px;
+}
+
+.menu-item.active{
+   background-color: #D9D3D0;
+}
+
+.menu-item:hover{
+   background-color: #BFAB9F;
+   color: #000;
+}
+
+.menu-section{
+   font-size: 18px;
+   text-align: center;
+}
+
+/*tag di scrittura*/
+
+.title{
+   font-size: 30px;
+   font-weight: bold;
+   color: #594842;
+}
+
+.subtitle{
+   font-size: 25px;
+   color: #8C7A70;
+}
+
+.text{
+   font-size: 18px;
+   color: #232323;
+}
+
+.img{
+   width: 40vh;
+}
+
+.hr{
+   width: 65%;
+}
